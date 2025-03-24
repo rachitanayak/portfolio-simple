@@ -33,8 +33,7 @@ function About() {
       <DisplayPicture
         src={AboutImg}
         alt={"Me pretending to read"}
-        height="full"
-        width="full"
+        fitToContainer={true}
       />
     </>
   );

@@ -30,8 +30,7 @@ function Skillset() {
       <DisplayPicture
         src={SkillsetImage}
         alt="Cat typing aggressively on laptop"
-        width="full"
-        height="full"
+        fitToContainer={true}
       />
     </>
   );

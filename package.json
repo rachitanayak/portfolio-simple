@@ -27,9 +27,10 @@
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
-    "typescript": "~5.7.2",
+    "typescript": "5.1",
     "typescript-eslint": "^8.24.1",
     "vite": "^6.2.0",
+    "vite-plugin-compression": "^0.5.1",
     "vite-plugin-eslint": "^1.8.1"
   },
   "exports": {

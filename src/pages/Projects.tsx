@@ -55,8 +55,7 @@ function Projects() {
       <DisplayPicture
         src={ProjectImg}
         alt="Macro data refinement cubicle"
-        width="full"
-        height="full"
+        fitToContainer={true}
       />
     </>
   );

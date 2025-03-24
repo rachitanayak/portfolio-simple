@@ -17,8 +17,7 @@ function Contact() {
       <DisplayPicture
         src={ContactImg}
         alt="Phone receiver"
-        width="auto"
-        height="auto"
+        fitToContainer={false}
       />
     </>
   );
