@@ -4,7 +4,7 @@ import ContactImg from "../assets/contact.svg";
 function Contact() {
   return (
     <>
-      <p className="text-2xl pr-50">
+      <p className="md:text-2xl md:pr-50">
         if you would like to get in touch, please drop an email to{" "}
         <a
           href="mailto:rachitanayak9@gmail.com"

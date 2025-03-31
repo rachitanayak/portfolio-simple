@@ -28,7 +28,7 @@ const projects = [
 function Projects() {
   return (
     <>
-      <div className="space-y-8 pr-50">
+      <div className="space-y-8 md:pr-50">
         <p>
           These are some of the projects I have contributed to professionally.
         </p>
@@ -37,7 +37,7 @@ function Projects() {
             .sort((a, b) => a.order - b.order)
             .map((project, mainIndex) => (
               <li key={mainIndex}>
-                <span className="text-2xl">{project.name}</span>
+                <span className="md:text-2xl">{project.name}</span>
                 <ul>
                   {project.details.map((detail, detailIndex) => (
                     <li

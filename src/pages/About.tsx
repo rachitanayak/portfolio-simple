@@ -4,7 +4,7 @@ import AboutImg from "../assets/about.jpg";
 function About() {
   return (
     <>
-      <div className="pr-50 space-y-8 text-2xl">
+      <div className="md:pr-50 space-y-8 md:text-2xl">
         <p className="flex align-items-center">
           hi! I'm rachita.. i'm a React developer and love building websites. i
           began my web development journey more than 4 years back and have
