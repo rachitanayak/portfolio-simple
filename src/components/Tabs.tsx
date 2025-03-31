@@ -6,8 +6,8 @@ interface TabsProps {
 
 function Tabs({ children }: TabsProps) {
   return (
-    <div className="flex flex-col">
-      <nav className="space-x-4 md:text-4xl">
+    <div className="flex flex-col flex-wrap">
+      <nav className="space-x-4 text-xl md:text-4xl">
         <NavLink
           to="/"
           className={({ isActive }) =>
