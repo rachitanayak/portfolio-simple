@@ -6,7 +6,7 @@ interface TabsProps {
 
 function Tabs({ children }: TabsProps) {
   return (
-    <div className="flex flex-col flex-wrap">
+    <header className="flex flex-col flex-wrap">
       <nav className="space-x-4 text-xl md:text-4xl">
         <NavLink
           to="/"
@@ -49,10 +49,10 @@ function Tabs({ children }: TabsProps) {
           Contact
         </NavLink>
       </nav>
-      <div className="w-full pt-15 md:pt-30 flex flex-col space-y-8 md:flex-row md:justify-between md:text-xl md:pl-10">
+      <div className="w-full pt-15 md:pt-30 text-justify flex flex-col space-y-8 md:justify-between md:text-xl md:pl-10 lg:flex-row ">
         {children}
       </div>
-    </div>
+    </header>
   );
 }
 

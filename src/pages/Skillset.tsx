@@ -17,7 +17,7 @@ const getSkillCategory = (category: string) => {
 function Skillset() {
   return (
     <>
-      <ul className="space-y-8 md:pr-50">
+      <ul className="space-y-8 lg:pr-20">
         {Object.keys(skills).map((category) => (
           <li key={category} className="list-disc">
             <span className="md:text-2xl">{category}</span>:{" "}

@@ -15,6 +15,7 @@ function DisplayPicture({ src, alt, fitToContainer }: DisplayPictureProps) {
             }`}
             src={src}
             alt={alt}
+            loading="lazy"
           />
         </div>
       </div>

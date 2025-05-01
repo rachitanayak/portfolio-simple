@@ -28,7 +28,7 @@ const projects = [
 function Projects() {
   return (
     <>
-      <div className="space-y-8 md:pr-50">
+      <div className="space-y-8 lg:pr-20">
         <p>
           These are some of the projects I have contributed to professionally.
         </p>
