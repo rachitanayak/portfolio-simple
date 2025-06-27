@@ -4,7 +4,6 @@ import SkillsetImage from "../assets/skillset.gif";
 const skills = {
   Languages: ["HTML", "CSS", "JavaScript", "TypeScript", "SQL"],
   Frameworks: ["React", "Node.js", "jQuery", "Redux"],
-  Libraries: ["Bootstrap", "Tailwind CSS"],
   Databases: ["SQL Server", "Microsoft Dataverse"],
   "Cloud Platforms": ["Azure", "Power Platform"],
   "Developer Tools": ["Git", "VS Code", "Postman", "Jira", "Azure DevOps"],

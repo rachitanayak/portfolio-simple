@@ -6,11 +6,11 @@ function About() {
     <>
       <div className="lg:pr-20 space-y-8 md:text-2xl">
         <p className="flex align-items-center">
-          hi! I'm rachita.. i'm a React developer and love building websites. i
-          began my web development journey more than 4 years back and have
-          enjoyed every bit along the way. i'm always open to learning new
-          things and i aim to get better at my skills everyday. i've built this
-          website using vite, typescript and tailwind css.
+          hello! I'm rachita. i'm a React developer and love building websites.
+          i began my web development journey more than 4 years back and have
+          enjoyed every bit along the way. i'm eager to learn new things and i
+          aim to get better at my skills everyday. i've built this website using
+          vite, react, typescript and tailwind css.
         </p>
         <p>
           when i'm not working, i love to explore new places and food in my city
